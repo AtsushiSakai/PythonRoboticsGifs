@@ -1,0 +1,1 @@
+ffmpeg -loop 1 -i PythonRoboticsLogo.png -i PythonRoboticsIntroduction2025-02-18.wav -c:v libx264 -c:a aac -b:a 192k -shortest PythonRoboticsIntroduction2025-02-18.mp4
